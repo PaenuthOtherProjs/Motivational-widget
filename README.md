@@ -23,6 +23,7 @@ A lightweight, customizable desktop widget that displays a slideshow of images f
 1. Download the latest release from the [Releases](https://github.com/PaenuthOtherProjs/Motivational-widget/releases) section
 2. Scroll down to "Assets" and click the "MotivationWidget.exe" to download.
 3. Run the executable file - no installation needed!
+4. Note: This program is safe and secure. You may scan it with your preferred anti-virus software to check.
 
 ### Run from Source
 1. Clone this repository
