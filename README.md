@@ -1,4 +1,4 @@
-# Motivation Widget
+# Motivational Widget
 
 A lightweight, customizable desktop widget that displays a slideshow of images from a folder of your choice. Perfect for motivational quotes, inspirational images, or personal photos that keep you focused throughout your day.
 
