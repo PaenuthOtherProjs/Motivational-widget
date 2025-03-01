@@ -23,7 +23,7 @@ A lightweight, customizable desktop widget that displays a slideshow of images f
 1. Download the latest release from the [Releases](https://github.com/PaenuthOtherProjs/Motivational-widget/releases) section
 2. Scroll down to "Assets" and click the "MotivationWidget.exe" to download.
 3. Run the executable file - no installation needed!
-4. Note: This program is safe and secure. You may scan it with your preferred anti-virus software to check.
+4. Note: This program is safe and secure. Kindly read the **Security and Privacy** section below for more info.
 
 ### Run from Source
 1. Clone this repository
@@ -83,3 +83,39 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Built with [Python](https://www.python.org/) and [Tkinter](https://docs.python.org/3/library/tkinter.html)
+
+## Security and Privacy
+
+### 100% Safe and Offline
+The Motivational Widget is completely safe and contains **no malicious code**. Important privacy features:
+
+- **Fully Offline**: This application never connects to the internet
+- **Zero Data Collection**: We don't collect, store, or transmit any user data
+- **Local Storage Only**: All settings are stored locally on your computer in a simple configuration file
+- **Open Source**: The entire codebase is available for review
+
+### About Antivirus Detections
+
+Some antivirus programs may flag the executable as suspicious. These are **false positives** due to several factors:
+
+1. It's a standalone executable created with a Python packager (like PyInstaller)
+2. It accesses your file system (to display your images)
+3. It uses Windows registry functions for "run at startup" capability
+4. It's unsigned (not code-signed with a certificate)
+
+These are common triggers for heuristic-based detection algorithms, especially detection systems like "Tedy" which flag programs based on behavioral patterns rather than actual malicious code.
+
+### Verification Options
+
+If your antivirus flags this application, you have several options:
+
+- **Run from source**: The safest option is to run the Python source code directly
+- **Review the code**: Examine what the program actually does
+- **Add an exception**: Configure your antivirus to allow this specific application
+
+### Technical Details
+
+The application is built with standard Python libraries and Tkinter for the GUI. It only requires file system access to:
+1. Read images from your selected folder
+2. Save/load your configuration preferences
+3. Create a startup entry if you enable the "Run at Startup" option
