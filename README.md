@@ -28,7 +28,7 @@ A lightweight, customizable desktop widget that displays a slideshow of images f
 1. Clone this repository
    ```bash
    git clone https://github.com/PaenuthOtherProjs/Motivational-widget.git
-   cd motivation-widget
+   cd Motivational-widget
    ```
 
 2. Install required packages
