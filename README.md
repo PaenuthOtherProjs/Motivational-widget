@@ -100,7 +100,7 @@ Some antivirus programs may flag the executable as suspicious. These are **false
 
 1. It's a standalone executable created with a Python packager (like PyInstaller)
 2. It accesses your file system (to display your images)
-3. It uses Windows registry functions for "run at startup" capability
+3. It uses "run at startup" capability
 4. It's unsigned (not code-signed with a certificate)
 
 These are common triggers for heuristic-based detection algorithms, especially detection systems like "Tedy" which flag programs based on behavioral patterns rather than actual malicious code.
